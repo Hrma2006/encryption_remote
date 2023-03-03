@@ -20,7 +20,8 @@ int main(){
         if(decide==1){
             //the text to encrypt
             string words;
-            cout<<"enter the text to encrypt use _ as space:\n";
+            
+            cout<<"enter the text(no numbers) to encrypt use _ as space:\n";
             cin >> words;
             int wordlen = words.size();
             
